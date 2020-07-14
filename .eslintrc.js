@@ -16,5 +16,13 @@ module.exports = {
   ],
   rules: {
     'linebreak-style': 0,
+    'import/extensions': 0,
+  },
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
   },
 };
