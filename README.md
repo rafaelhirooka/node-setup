@@ -1,4 +1,5 @@
 # Node Setup
+A Node.JS with Typescript setup
 
 ## Scripts
 ```
